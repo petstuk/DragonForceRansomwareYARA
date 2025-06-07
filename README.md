@@ -25,18 +25,17 @@ The rules were created using [yarGen](https://github.com/Neo23x0/yarGen) — a Y
 2. Files were organized in:
 
    ```
-   /malware_samples/dragonforce/
-   /rules/
+   dragonforce_hashes.txt
    ```
 
 3. Two YARA rulesets were generated using `yarGen`:
 
    ```bash
    # Full ruleset (including common APIs)
-   python3 yarGen.py -m /malware_samples/dragonforce/ -o rules/dragonforce_rule.yar
+   dragonforce_raw.yar
 
    # Clean ruleset (excluding goodware-related strings)
-   python3 yarGen.py -m /malware_samples/dragonforce/ -o rules/dragonforce_rule_clean.yar --excludegood
+   dragonforce_clean.yar
    ```
 
 ---
