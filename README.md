@@ -8,13 +8,13 @@ The rules were created using [yarGen](https://github.com/Neo23x0/yarGen) — a Y
 
 ## 📁 Repository Contents
 
-- `dragonforce_rule.yar`  
+- `dragonforce_raw.yar`  
   The initial YARA ruleset generated from 13 DragonForce ransomware samples. This ruleset includes all extracted string indicators, including common Windows APIs and DLLs.
 
-- `dragonforce_rule_clean.yar`  
+- `dragonforce_clean.yar`  
   A cleaned YARA ruleset generated with the `--excludegood` flag. This version filters out generic strings found in benign software, reducing false positives and improving detection fidelity.
 
-- `filehashes.txt`  
+- `dragonforce_hashes.txt`  
   A list of SHA-256 file hashes for the DragonForce ransomware samples used to generate the rules. These hashes can be submitted to VirusTotal or other threat intel platforms for further analysis.
 
 ---
