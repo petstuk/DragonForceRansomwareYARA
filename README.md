@@ -44,7 +44,7 @@ The rules were created using [yarGen](https://github.com/Neo23x0/yarGen) — a Y
 
 DragonForce began as a pro-Palestine hacktivist group in 2023, later transitioning into a financially motivated ransomware operation. The group has been associated with high-profile attacks and employs tactics such as phishing, red team frameworks, and double extortion ransomware deployment.
 
-More information is available in the [associated blog post](https://yourbloglinkhere.com).
+More information is available in the [associated blog post](https://peterstollery.co.uk).
 
 ---
 
